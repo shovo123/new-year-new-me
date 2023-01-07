@@ -1,6 +1,7 @@
 *{
     margin: 0;
 }
+/* Banner Design */
 .banner{
     background-image: url(../images/banner/banner3.png);
     position: relative;
@@ -52,6 +53,7 @@ line-height: 23px;
 text-align: center;
 color: #005FAC;
 }
+/* Main Design */
 .writing{
     font-weight: 700;
     font-size: 40px;
@@ -82,3 +84,47 @@ section{
 .failures ul li i {
     color: #16D887;
 }
+/* My Plans */
+.plans {
+    text-align: center;
+}
+.plans .section-title{
+    margin-bottom: 50px;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin: 10px 0px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+     color: #737272; 
+}
+/* Mindset Section Style */
+.positive-mindset{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center center, center center;
+    padding: 60px;
+    margin: 0 25px;
+}
+.mindset h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+/* Footer Design */
