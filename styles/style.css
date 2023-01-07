@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    position: relative;
+width: 1600px;
+height: 808px;
+left: 0px;
+top: 0px;
+}
+.header{
+    position: relative;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+color: #FFFFFF;
+}
+.heading{
+    position: absolute;
+width: 494px;
+height: 78px;
+left: 876px;
+top: 468px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+color: #FFFFFF;
+}
+.btn-primary{
+    position: absolute;
+width: 160px;
+height: 64px;
+left: 1210px;
+top: 578px;
+margin-top: 30px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #005FAC;
+}
+.writing{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+section{
+    margin: 130px 200px;
+}
+.paragraph{
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+}
+.failures ul li {
+    line-height: 26px;
+    color: #444343;
+    list-style: none;
+    margin-bottom: 8px;
+}
+.failures ul li i {
+    color: #16D887;
+}
